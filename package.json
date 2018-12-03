@@ -1,17 +1,16 @@
 {
-  "name": "debugapp",
-  "version": "0.0.0",
-  "private": true,
+  "name": "debug-node",
+  "version": "1.0.0",
+  "description": "Debug Nodejs App on Stackdriver Debug",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "",
   "dependencies": {
     "@google-cloud/debug-agent": "^3.0.0",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "http-errors": "~1.6.2",
-    "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11"
-  }
+    "express": "^4.16.4"
+  },
+  "devDependencies": {}
 }
